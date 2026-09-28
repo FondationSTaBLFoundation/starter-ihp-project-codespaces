@@ -8,8 +8,8 @@ This is an IHP template configured to run on GitHub Codespaces and [VSCode Devco
 1. Create a repository from this template.
 2. Run it in Codespaces / Devcontainers.
 3. Once the Codespace launches, run `./install-nix.sh` to install the necessary things. This may take 10+ minutes the first time.
-4. Once it fully finishes, close the running terminal and open a new one.
-5. Run `devenv up` to start the server. This will download a few more things to actually run the server.
+4. Once it fully finishes, close the running terminal and open a new one.  This will download a few more things to actually run the server.
+5. Run `devenv up` to start the server.
 6. Once the server starts, find the 8000 port on the ports screen and click the globe icon to open it.
 7. Have fun with IHP! :)
 
