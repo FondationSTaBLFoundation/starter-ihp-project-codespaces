@@ -7,9 +7,11 @@ This is an IHP template configured to run on GitHub Codespaces and [VSCode Devco
 ### For New Projects
 1. Create a repository from this template.
 2. Run it in Codespaces / Devcontainers.
-3. Wait for the initial setup to complete. This will take a few minutes and will use two bash windows, one of which will close when it's done. The other should be a blank terminal when it's done.
+3. Once the Codespace launches, run `./install-nix.sh` to install the necessary things. This may take 10+ minutes the first time.
 4. Run `devenv up` to start the server.
 5. Have fun with IHP! :)
+
+_**NOTE:**_ If your Codespace is bigger than 15gb (20gb if you get GitHub Pro through the Student Developer Pack), you will have to delete it.
 
 ### An existing IHP project
 To add support to an existing IHP project, simply copy the [devcontainer configuration](.devcontainer/devcontainer.json) to your project, 
