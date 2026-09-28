@@ -11,7 +11,8 @@ This is an IHP template configured to run on GitHub Codespaces and [VSCode Devco
 4. Run `devenv up` to start the server.
 5. Have fun with IHP! :)
 
-_**NOTE:**_ If your Codespace is bigger than 15gb (20gb if you get GitHub Pro through the Student Developer Pack), you will have to delete it.
+_**NOTE:**_ If your Codespace is bigger than 15gb (20gb if you get GitHub Pro through the Student Developer Pack), you will have to delete it
+when you're not actively coding, or else you will run out of gb-months of storage before the end of the month.
 
 ### An existing IHP project
 To add support to an existing IHP project, simply copy the [devcontainer configuration](.devcontainer/devcontainer.json) to your project, 
