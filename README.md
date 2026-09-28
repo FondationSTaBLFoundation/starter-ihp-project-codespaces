@@ -15,9 +15,12 @@ This is an IHP template configured to run on GitHub Codespaces and [VSCode Devco
 
 _**NOTE:**_ Codespaces storage use is calculated hourly and is measured in gb-months. If your Codespace is bigger than 15gb (20gb if you get GitHub Pro 
 through the Student Developer Pack), you will have to delete it when you're not actively coding, or else you will run out of gb-months of 
-storage before the end of the month. You can always recreate it, though you'll have to wait for the things to download again. Most times 
-it should only take up about 17-19gb which won't exhaust the 20gb limit, but would exhaust the 15gb limit. **_Be careful not to have more than one 
-Codespace in your account at once as this will eat up your storage too!_**
+storage before the end of the month. **_Make sure you commit your code first if you delete the Codespace!!_** You can always recreate it, though you'll 
+have to wait for the things to download again, unfortunately. Most times it should only take up about 17-19gb which won't exhaust the 20gb limit, but would exhaust 
+the 15gb limit. **_Be careful not to have more than one Codespace in your account at once as this will eat up your storage too!_**
+
+**Update:** It looks like the new IHP version has 21gb of dependencies. So we'll have to find another solution so we don't always have to delete the
+Codespaces.
 
 ### An existing IHP project
 To add support to an existing IHP project, simply copy the [devcontainer configuration](.devcontainer/devcontainer.json) to your project, 
